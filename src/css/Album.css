@@ -1,0 +1,29 @@
+.album {
+    margin: 0%;
+    /* overflow: scroll; */
+}
+
+.image_item {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    margin: 10px 0;
+    gap:10px;
+}
+
+a:link {
+    color: rgb(12, 70, 242);
+    text-decoration:none
+}
+
+.image_img {
+    height: 70px;
+    width: 70px;
+}
+
+.image_detail {
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+}
+

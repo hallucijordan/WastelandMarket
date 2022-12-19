@@ -1,0 +1,36 @@
+.side {
+  height: 100%;
+  background-color: #4a9efe;
+  /* justify-content: center; */
+  text-align: center;
+  position: fixed;
+  
+  /* min-height: 100vh; */
+  /* display: flex; */
+  float: left;
+  width: 27.5%;
+  /* flex-direction: column; */
+  font-size: calc(10px + 2.5vmin);
+  color: #090808;
+  overflow: hidden;
+}
+.menu {
+  width:100%;
+  float: left;
+  overflow: hidden;
+  font-size: 15px;
+}
+.menu .menuitemfalse {
+  width: 100%;
+  padding: 5vh 0;
+  cursor:default;
+}
+.menu .menuitemtrue {
+  width: 100%;
+  padding: 5vh 0;
+  cursor:default;
+  background-color: #FAF375;
+}
+.menu .menuitem:hover {
+  background-color: #66686b;
+}
