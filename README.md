@@ -55,7 +55,7 @@ export function store(namespace:string, data:string) {
 
 在此基础上，我们分别定义upload, download,del函数，分别实现上传，下载，删除操作
 
-```react
+```javascript
 export async function upload(url: RequestInfo, value: string, sha: string) {
   const response = await fetch(url,{
     method: 'PUT',
